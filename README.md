@@ -1,7 +1,9 @@
 rampeer
 =====
 
-A container for testing ram with peer.
+A container for testing [ram](https://github.com/ostinelli/ram) with [peer](https://max-au.com/peer/).
+OTP-25 is required.
+
 As in the original doc for ram, three nodes are created,
 then a cluster is initiated and test data are stored
 and retrieved.
