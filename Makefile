@@ -1,4 +1,5 @@
 ct:
+	rebar3 compile
 	mkdir /tmp/all
 	cp _build/default/lib/*/ebin/*.beam /tmp/all
 	cp _build/default/lib/*/ebin/*.app  /tmp/all
